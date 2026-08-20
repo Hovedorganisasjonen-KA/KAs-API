@@ -104,6 +104,7 @@ vurderer vi forespørselen.
 API-et inneholder kun informasjon som er offentlig tilgjengelig.
 Intern dokumentasjon fra fellesråd og gravplassmyndigheter deles ikke
 via API-et.
+
 ---
 
 ## Kontakt
