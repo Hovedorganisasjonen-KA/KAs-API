@@ -10,7 +10,7 @@ Sist oppdatert: 20. august 2026
 
 KA tilbyr to datasett med tilhørende API:
 
-- **Gravplasser** – oversikt over gravplasser i Norge
+- **Gravplasser** – oversikt over gravplasser i Norge som anlegg
 - **Kirker og kapell** – kirkebygg og kapell
 
 Dataene forvaltes i KAs fagsystem for eiendomsforvaltning og oppdateres
@@ -50,7 +50,7 @@ gravplasser.
 | `/ka/graveyards` | Alle gravplasser | GeoJSON |
 | `/ka/graveyards/{guid}` | Én gravplass | GeoJSON |
 | `/ka/simple/graveyards` | Alle gravplasser, redusert feltsett | JSON |
-| `/ka/public/graveyards` | Kun offentlige gravplasser i drift, redusert feltsett | JSON |
+| `/ka/public/graveyards` | Kun offentlige gravplasser i drift | JSON |
 
 ### Kirker og kapell
 
@@ -98,4 +98,4 @@ JSON-endepunktene er beregnet på oppslag og lister der geometri ikke trengs.
 ## Kontakt
 
 Spørsmål om datasettene, tilgang eller innhold rettes til KA, avdeling for
-kirkebygg og gravplass. - ka@ka.no
+kirkebygg og gravplass.
