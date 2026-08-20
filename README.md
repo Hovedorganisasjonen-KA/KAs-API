@@ -98,4 +98,4 @@ JSON-endepunktene er beregnet på oppslag og lister der geometri ikke trengs.
 ## Kontakt
 
 Spørsmål om datasettene, tilgang eller innhold rettes til KA, avdeling for
-kirkebygg og gravplass.
+kirkebygg og gravplass. - ka@ka.no
