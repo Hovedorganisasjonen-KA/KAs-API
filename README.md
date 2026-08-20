@@ -20,9 +20,8 @@ løpende av gravplassmyndighetene og fellesrådene selv.
 ### Merk om navnebruk
 
 **«Gravplasser»** brukes i flertall. Geonorge har en separat oppføring kalt
-«Gravplass» som er innsendt av Kartverket og gjelder gravkart etter
-gravferdsforskriften § 4 – altså graver med ID og gravfeltfastmerker innenfor
-den enkelte gravplass. Det er et annet datasett med et annet formål enn KAs.
+«Gravplass» som gjelder gravkart etter gravferdsforskriften § 4 – altså graver med ID og gravfeltfastmerker innenfor
+den enkelte gravplass. Det er et annet datasett med et annet formål.
 
 **«Kirker og kapell»** omfatter begge bygningstypene. Kapell er inkludert selv
 om det ikke framgår av endepunktnavnet `churches`.
@@ -60,7 +59,7 @@ gravplasser.
 | `/ka/churches` | Alle kirker og kapell | GeoJSON |
 | `/ka/churches/{guid}` | Ett bygg | GeoJSON |
 | `/ka/simple/churches` | Alle kirker og kapell, redusert feltsett | JSON |
-| `/ka/kbfbuildings` | Kun bygg med støtte fra Kirkebygg bevaringsfond (KBF) | JSON |
+| `/ka/kbfbuildings` | Kun bygg i strategien til kirkebevaringsfondet | JSON |
 
 Samtlige listeendepunkter støtter søkekriterier.
 
@@ -96,7 +95,19 @@ JSON-endepunktene er beregnet på oppslag og lister der geometri ikke trengs.
 
 ---
 
+## Tilgang
+
+Tilgang til API-et gis etter avtale med KA. Send en henvendelse med
+hvilken virksomhet du representerer og hva dataene skal brukes til, så
+vurderer vi forespørselen.
+
+API-et inneholder kun informasjon som er offentlig tilgjengelig.
+Intern dokumentasjon fra fellesråd og gravplassmyndigheter deles ikke
+via API-et.
+---
+
 ## Kontakt
 
 Spørsmål om datasettene, tilgang eller innhold rettes til KA, avdeling for
 kirkebygg og gravplass.
+ka@ka.no
