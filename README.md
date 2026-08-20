@@ -10,7 +10,8 @@ Sist oppdatert: 20. august 2026
 
 KA tilbyr to datasett med tilhørende API:
 
-- **Gravplasser** – oversikt over gravplasser i Norge som anlegg
+- **Gravplasser** – oversikt over gravplasser i Norge
+  
 - **Kirker og kapell** – kirkebygg og kapell
 
 Dataene forvaltes i KAs fagsystem for eiendomsforvaltning og oppdateres
