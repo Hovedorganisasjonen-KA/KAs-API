@@ -41,6 +41,29 @@ gravplasser.
 
 ---
 
+## Utforsk API-et med Swagger
+
+Alle endepunkter kan utforskes og testes direkte i Swagger UI:
+
+**https://ordna.planiasky.no/api/swagger/index.html?urls.primaryName=Plania+Custom+API**
+
+Logg inn med samme brukernavn og passord som er utlevert for API-tilgangen.
+
+### Tilgjengelige endepunkter (Ka)
+
+| Endepunkt | Metode | Beskrivelse |
+|---|---|---|
+| `/ka/graveyards` | GET | Liste over gravplasser som møter søkekriteriene. Returneres som GeoJSON. |
+| `/ka/graveyards/{guid}` | GET | Én gravplass med angitt GUID. Returneres som GeoJSON. |
+| `/ka/simple/graveyards` | GET | Liste over gravplasser med redusert feltsett. Returneres som JSON. |
+| `/ka/public/graveyards` | GET | Liste over offentlige gravplasser i drift. Returneres som JSON. |
+| `/ka/churches` | GET | Liste over kirker og kapell som møter søkekriteriene. Returneres som GeoJSON. |
+| `/ka/churches/{guid}` | GET | Én kirke eller ett kapell med angitt GUID. Returneres som GeoJSON. |
+| `/ka/simple/churches` | GET | Liste over kirker og kapell med redusert feltsett. Returneres som JSON. |
+| `/ka/kbfbuildings` | GET | Liste over bygg med støtte fra Kirkebygg bevaringsfond (KBF) som møter søkekriteriene. Returneres som GeoJSON. |
+
+---
+
 ## Endepunkter
 
 ### Gravplasser
